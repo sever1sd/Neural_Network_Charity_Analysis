@@ -14,11 +14,11 @@ The non-profit organization AlphabetSoup has requested a robust analysis using n
 
 ### Compiling,Training, and Evaluating the Model
 
-![alt text]()
+![alt text](https://github.com/sever1sd/Neural_Network_Charity_Analysis/blob/d776f57e7b342ab873665fadd46ec3e0c54ddc21/Resources/Neural%20Network.png)
 
 1. The initial model had 2 hidden layers with 80 and 30 neurons each. The activation methods used were "relu" and "sigmoid."
 2. This version of the model did not achieve target performance. After 100 epochs, the peak accuracy was 0.5438 with a loss of 1.1444. This is well below the 75% threshold.
-![alt text]()
+![alt text](https://github.com/sever1sd/Neural_Network_Charity_Analysis/blob/d776f57e7b342ab873665fadd46ec3e0c54ddc21/Resources/accuracy.png)
 3. Three other attempts were made to improve the model. The attempts included changing the number of hidden layers, increasing the neurons in hidden layers, and changing the activation methods. These models all proved to be equally as inefficient in evaluating the data with accuracy/loss metrics ranging from 0.4454/0.7200 to 0.6302/0.6399. The most successful model had 2 hidden layers and with 100 and 50 neurons respectively.
 
 ## Summary
